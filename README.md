@@ -71,11 +71,12 @@ You can access these variables in any view: $CONTROLLER, $ACTION, $BASE_URL.
 
 ### Use params
 
-You can send parameters to a certain action, example : controller/action/id.
-
+You can send parameters to a certain action
 We can obtain the parameters as follows.
 
-![Descripción de la imagen](/screenshots/params.png)
+![Descripción de la imagen](/screenshots/params.png "articles/index/1")
+
+![Descripción de la imagen](/screenshots/params2.png "articles/index/id/Yordii")
 
 # Template (shared folder)
 
