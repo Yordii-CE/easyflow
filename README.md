@@ -1,7 +1,7 @@
 # Getting started
 
-- Step 1: Dowload this framework.
-- Step 2: Working in the App folder (Ignoring Core and Screenshot folder).
+1. Dowload this framework.
+2. Step 2: Working in the App folder (Ignoring Core and Screenshot folder).
 
 ![Descripción de la imagen](/screenshots/app_folder.png)
 
@@ -9,19 +9,19 @@
 
 ### Files
 
-Controllers: Point nomenclature and in lower case, all must end in '.controller', example (articles.controller).
+- Controllers: Point nomenclature and in lower case, all must end in '.controller', example (articles.controller).
 
-Models: Point nomenclature and in lower case, all must end in '.model', example (articles.model).
+- Models: Point nomenclature and in lower case, all must end in '.model', example (articles.model).
 
-Views: Create a folder for each controller and within all the actions/functions that the controller has defined:
+- Views: Create a folder for each controller and within all the actions/functions that the controller has defined:
 
 ![Descripción de la imagen](/screenshots/view_folder.png)
 
 ### Classes
 
-Controllers: UpperCamelCase, all must end in 'Controller', example (ArticlesController).
+- Controllers: UpperCamelCase, all must end in 'Controller', example (ArticlesController).
 
-Models class name: UpperCamelCase, all must end in 'Model', example (ArticlesModel).
+- Models class name: UpperCamelCase, all must end in 'Model', example (ArticlesModel).
 
 # Create from command line
 
@@ -82,15 +82,15 @@ You can omit the template that wraps the view with a third parameter.
 
 # Connect to Mysql
 
-In the config file you can set your connection data.
+1. In the config file you can set your connection data.
 
 ![Descripción de la imagen](/screenshots/config.png)
 
-You will have to load your database in your model, the load is not automatic because not all models can obtain data from a database, so resources are saved.
+2. You will have to load your database in your model, the load is not automatic because not all models can obtain data from a database, so resources are saved.
 
 ![Descripción de la imagen](/screenshots/model_to_mysql.png)
 
-Finally in your controller you can use your model and access your data as follows.
+3. Finally in your controller you can use your model and access your data as follows.
 
 ![Descripción de la imagen](/screenshots/controller_to_mysql.png)
 
