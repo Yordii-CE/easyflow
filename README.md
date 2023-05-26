@@ -1,7 +1,7 @@
 # Getting started
 
 1. Dowload this framework.
-2. Step 2: Working in the App folder (Ignoring Core and Screenshot folder).
+2. Working in the App folder (Ignoring Core and Screenshot folder).
 
 ![Descripción de la imagen](/screenshots/app_folder.png)
 
