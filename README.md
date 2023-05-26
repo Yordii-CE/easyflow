@@ -78,9 +78,9 @@ We can obtain the parameters as follows.
 
 ![Descripción de la imagen](/screenshots/params.png "articles/index/1")
 
-- articles/index/id/Yordii
+- articles/index/1/Yordii
 
-![Descripción de la imagen](/screenshots/params2.png "articles/index/id/Yordii")
+![Descripción de la imagen](/screenshots/params_two.png "articles/index/1/Yordii")
 
 # Template (shared folder)
 
