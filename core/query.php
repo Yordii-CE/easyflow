@@ -2,7 +2,7 @@
 
 class Query
 {
-    private $connection;
+    public $connection;
     public function __construct($connection)
     {
         $this->connection = $connection;
