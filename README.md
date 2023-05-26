@@ -75,9 +75,11 @@ You can send parameters to a certain action
 We can obtain the parameters as follows.
 
 - articles/index/1
+- 
 ![Descripción de la imagen](/screenshots/params.png "articles/index/1")
 
 - articles/index/id/Yordii
+- 
 ![Descripción de la imagen](/screenshots/params2.png "articles/index/id/Yordii")
 
 # Template (shared folder)
