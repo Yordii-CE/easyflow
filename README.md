@@ -73,7 +73,7 @@ You can access these variables in any view: $CONTROLLER, $ACTION, $BASE_URL.
 
 You can send parameters to a certain action, example : controller/action/id.
 
-To obtain the parameter in the action we do it through the index. All parameters are stored in an array.
+We can obtain the parameters as follows.
 
 ![Descripción de la imagen](/screenshots/params.png)
 
