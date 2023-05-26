@@ -28,13 +28,13 @@
 ### Controller, Model and View
 
 `` `
-
-$ .bat articles -true -false
+$ .bat articles
 `` 
+
 ### Only Controller and Model
 
 `` `
-$ .bat articles 
+$ .bat articles -true -false
 `` 
 
 ### Only Controller
