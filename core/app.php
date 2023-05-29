@@ -25,7 +25,7 @@ class App
             // Validate method
             if (!method_exists($controller, $methodName)) {
                 $controller = new ErrorController();
-                $controller->index("Action not found");
+                $controller->index("'$methodName' action not found");
                 return;
             }
 
@@ -40,7 +40,7 @@ class App
             call_user_func_array(array($controller, $methodName), $params);
         } else {
             $controller = new ErrorController();
-            $controller->index("Page not found");
+            $controller->index("'$controllerName' page not found");
         }
     }
 }
