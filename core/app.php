@@ -7,7 +7,7 @@ class App
     function __construct()
     {
         session_start();
-        $url = isset($_GET["url"]) ? $_GET["url"] : constant('DEFAULT_PAGE');
+        $url = isset($_GET["url"]) ? $_GET["url"] : constant('DEFAULT_CONTROLLER');
         $url = rtrim($url, '/');
         $url = explode('/', $url);
 
