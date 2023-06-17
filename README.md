@@ -27,15 +27,14 @@ you have to follow a series of naming rules to work with easyflow.
 
 ```sh
 app
-├── ...
 ├── controllers
 │    └── articles.controller.php
 ├── models
-|    └── articles.model.php
+│    └── articles.model.php
 ├── views
-|    └── articles
-|        └── index.php
-|        └── news.php
+│    └── articles
+│        └── index.php
+│        └── news.php
 ```
 
 
