@@ -108,6 +108,28 @@ class ArticlesController extends Controller
     }
 }
 ```
+### redirectToAction() | redirectToUrl()
+
+you can redirect to a controller action or just redirect to a web url like this:
+
+```php
+class ArticlesController extends Controller
+{
+    function news(): Redirect
+    {  
+        return redirectToAction('index', 'Users');
+    }
+}
+```
+```php
+class ArticlesController extends Controller
+{
+    function news(): Redirect
+    {  
+        return redirectToUrl('https://www.youtube.com/');
+    }
+}
+```
 
 ![Descripción de la imagen](/screenshots/data_in_view.png)
 
