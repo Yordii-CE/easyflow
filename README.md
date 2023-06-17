@@ -1,9 +1,4 @@
-```sh
-project
-├── api
-│   └── index.php
-└── vercel.json
-```
+
 
 
 ```php
@@ -21,7 +16,16 @@ class MiClase {
 1. Dowload this framework.
 2. Working in the App folder (Ignoring Core and Screenshot folder).
 
-![Descripción de la imagen](/screenshots/app_folder.png)
+```sh
+app
+├── config
+├── controllers
+├── libs
+├── models
+├── public
+├── views
+└── main.php
+```
 
 # Nomenclature
 
