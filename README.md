@@ -71,7 +71,12 @@ $ .bat articles -false -false
 
 You don't need to specify the view name. The default action name is taken:
 
-![Descripción de la imagen](/screenshots/view.png)
+```php
+function index(): View
+{  
+    return view();
+}
+```
 
 ### Send data
 
