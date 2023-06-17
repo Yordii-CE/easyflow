@@ -64,20 +64,20 @@ class ArticlesController extends Controller
 ### Controller, Model and View
 
 ```
-$ .bat articles
+.bat articles
 ``` 
 
 ### Only Controller and Model
 
-`` `
-$ .bat articles -true -false
-`` 
+```
+.bat articles -true -false
+```
 
 ### Only Controller
 
-`` `
-$ .bat articles -false -false
-`` 
+```
+.bat articles -false -false
+``` 
 
 # Features
 
