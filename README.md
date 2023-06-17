@@ -1,7 +1,8 @@
 # Getting started
 
 1. Dowload this framework.
-2. Working in the App folder (Ignoring Core and Screenshot folder).
+2. Rename 'easyflow' to your project name.
+3. Working in the App folder (Ignoring Core and Screenshot folder).
 
 ```sh
 app
