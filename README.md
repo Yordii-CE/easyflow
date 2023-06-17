@@ -1,3 +1,11 @@
+````class MiClase {
+    public function miMetodo() {
+        echo "Hola, mundo!";
+    }
+}
+```
+
+
 # Getting started
 
 1. Dowload this framework.
