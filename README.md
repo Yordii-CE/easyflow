@@ -82,9 +82,9 @@ class ArticlesController extends Controller
 
 # Features
 
-### Automatic views
+### view()
 
-You don't need to specify the view name. The default action name is taken:
+you can display a view like this:
 
 ```php
 class ArticlesController extends Controller
@@ -95,18 +95,16 @@ class ArticlesController extends Controller
     }
 }
 ```
+### json()
 
-### Send data
-
-You can send data in an associative array indicating the name with which you would like to use them in your view:
+You can respond with a json like this:
 
 ```php
 class ArticlesController extends Controller
 {
-    function index(): View
+    function index(): Json
     {  
-        $id = 10;
-        return view(['id' => $id]);
+        return json("Hello world!");
     }
 }
 ```
