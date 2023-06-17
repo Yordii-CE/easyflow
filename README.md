@@ -1,10 +1,11 @@
-```
->class MiClase {
+```php
+class MiClase {
     public function miMetodo() {
-        echo "Hola, mundo!";
+        echo "Hola, mundo!"
     }
 }
 ```
+
 
 
 # Getting started
