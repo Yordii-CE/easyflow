@@ -28,7 +28,7 @@ you have to follow a series of naming rules to work with easyflow.
 ```sh
 app
 ├── controllers
-|    └── articles.controller.php
+├    └── articles.controller.php
 ├── models
 |    └── articles.model.php
 ├── views
