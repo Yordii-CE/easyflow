@@ -72,9 +72,12 @@ $ .bat articles -false -false
 You don't need to specify the view name. The default action name is taken:
 
 ```php
-function index(): View
-{  
-    return view();
+class ArticlesController extends Controller
+{
+    function index(): View
+    {  
+        return view();
+    }
 }
 ```
 
