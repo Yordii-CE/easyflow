@@ -1,3 +1,11 @@
+```sh
+project
+├── api
+│   └── index.php
+└── vercel.json
+```
+
+
 ```php
 class MiClase {
     public function miMetodo() {
