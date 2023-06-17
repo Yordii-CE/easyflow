@@ -35,6 +35,7 @@ app
 │    └── articles
 │        └── index.php
 │        └── news.php
+├── ...
 ```
 
 
