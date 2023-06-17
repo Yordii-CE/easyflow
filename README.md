@@ -2,7 +2,7 @@
 
 1. Dowload this framework.
 2. Rename 'easyflow' to your project name.
-3. Working in the App folder (Ignoring Core and Screenshot folder).
+3. Working in the App folder (Ignoring Core).
 
 ```sh
 app
@@ -15,23 +15,49 @@ app
 └── main.php
 ```
 
-# Nomenclature
-
+# How to work with easyflow?
+you have to follow a series of naming rules to work with easyflow.
 ### Files
 
-- Controllers: Point nomenclature and in lower case, all must end in '.controller', example (articles.controller).
+- Controllers: Point nomenclature and in lower case, all must end in '.controller'.
 
-- Models: Point nomenclature and in lower case, all must end in '.model', example (articles.model).
+- Models: Point nomenclature and in lower case, all must end in '.model'.
 
-- Views: Create a folder for each controller and within all the actions/functions that the controller has defined:
+- Views: Create a folder for each controller and within all the actions|functions that the controller has defined:
 
-![Descripción de la imagen](/screenshots/view_folder.png)
+```sh
+app
+├── controllers
+|    └── articles.controller.php
+├── models
+|    └── articles.model.php
+├── views
+|    └── articles
+|        └── index.php
+|        └── news.php
+```
+
 
 ### Classes
 
-- Controllers: UpperCamelCase, all must end in 'Controller', example (ArticlesController).
+- Controllers: UpperCamelCase, all must end in 'Controller'.
 
-- Models class name: UpperCamelCase, all must end in 'Model', example (ArticlesModel).
+- Models class name: UpperCamelCase, all must end in 'Model'.
+
+```php
+class ArticlesController extends Controller
+{
+    function index(): View
+    {
+        return view();
+    }
+
+    function news(): View
+    {
+        return view();
+    }
+}
+```
 
 # Create from command line
 
