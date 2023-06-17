@@ -1,4 +1,5 @@
-````class MiClase {
+```
+class MiClase {
     public function miMetodo() {
         echo "Hola, mundo!";
     }
