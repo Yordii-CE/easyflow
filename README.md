@@ -45,6 +45,8 @@ app
 
 - Models class name: UpperCamelCase, all must end in 'Model'.
 
+  NOTE: When we reference a controller or model from the code, we do so without its prefixes.
+
 ```php
 class ArticlesController extends Controller
 {
@@ -115,16 +117,16 @@ you can redirect to a controller action or just redirect to a web url like this:
 ```php
 class ArticlesController extends Controller
 {
-    function news(): Redirect
+    function index(): Redirect
     {  
-        return redirectToAction('index', 'Users');
+        return redirectToAction('index', 'Login');
     }
 }
 ```
 ```php
 class ArticlesController extends Controller
 {
-    function news(): Redirect
+    function index(): Redirect
     {  
         return redirectToUrl('https://www.youtube.com/');
     }
