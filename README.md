@@ -1,16 +1,3 @@
-
-
-
-```php
-class MiClase {
-    public function miMetodo() {
-        echo "Hola, mundo!"
-    }
-}
-```
-
-
-
 # Getting started
 
 1. Dowload this framework.
@@ -85,7 +72,16 @@ class ArticlesController extends Controller
 
 You can send data in an associative array indicating the name with which you would like to use them in your view:
 
-![Descripción de la imagen](/screenshots/view_with_data.png)
+```php
+class ArticlesController extends Controller
+{
+    function index(): View
+    {  
+        $id = 10;
+        return view(['id' => $id]);
+    }
+}
+```
 
 ![Descripción de la imagen](/screenshots/data_in_view.png)
 
