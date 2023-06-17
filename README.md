@@ -63,9 +63,9 @@ class ArticlesController extends Controller
 
 ### Controller, Model and View
 
-`` `
+```
 $ .bat articles
-`` 
+``` 
 
 ### Only Controller and Model
 
