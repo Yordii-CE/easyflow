@@ -81,6 +81,18 @@ class ArticlesController extends Controller
 ```
 .bat articles -false -false
 ```
+# View variables
+
+You can access these variables in any view.
+
+```php
+echo $PATH_URL;
+echo $BASE_URL;
+echo $CONTROLLER;
+echo $ACTION;
+```
+
+
 # Config pattern
 
 You can config a default pattern in the main.php file.
