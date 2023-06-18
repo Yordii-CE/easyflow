@@ -101,7 +101,7 @@ You can config a default pattern in the main.php file.
 DefaultUrl::$pattern = "{articles}/{index}/{1}";
 ```
 
-# Features
+# Actions
 
 ### view()
 
@@ -149,6 +149,26 @@ class ArticlesController extends Controller
     {  
         return redirectToUrl('https://www.youtube.com/');
     }
+}
+```
+
+# Prefix
+
+### App
+you can set a url prefix at application level like this:
+```php
+DefaultUrl::$pattern = "application/{articles}/{index}/{1}";
+```
+
+### Controller
+```php
+class ArticlesController extends Controller
+{
+    function __construct()
+    {
+      prefix("statistics");
+    }
+    ...
 }
 ```
 
