@@ -80,7 +80,12 @@ class ArticlesController extends Controller
 
 ```
 .bat articles -false -false
-``` 
+```
+# Config pattern
+
+```php
+DefaultUrl::$pattern = "{articles}/{index}/{1}";
+```
 
 # Features
 
