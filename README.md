@@ -83,6 +83,8 @@ class ArticlesController extends Controller
 ```
 # Config pattern
 
+You can config a default pattern in the main.php file.
+
 ```php
 DefaultUrl::$pattern = "{articles}/{index}/{1}";
 ```
