@@ -161,6 +161,7 @@ DefaultUrl::$pattern = "application/{articles}/{index}/{1}";
 ```
 
 ### Controller
+you can set a url prefix at controller level like this:
 ```php
 class ArticlesController extends Controller
 {
