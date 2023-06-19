@@ -60,7 +60,8 @@ class ArticlesModel extends Model
   NOTE: When we reference a controller or model from the code, we do so without its prefixes.
 
 
-# Create from command line
+# Automatic creation
+You can create the files manually following these naming rules but we have failed a .bat that allows you to create controllers, models and views in an autonomous way thus avoiding errors.
 
 ### Controller, Model and View
 
