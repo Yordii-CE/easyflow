@@ -43,24 +43,22 @@ app
 
 - Controllers: UpperCamelCase, all must end in 'Controller'.
 
+  ```php
+class ArticlesController extends Controller
+{ 
+}
+```
+
 - Models class name: UpperCamelCase, all must end in 'Model'.
+
+```php
+class ArticlesModel extends Model
+{ 
+}
+```
 
   NOTE: When we reference a controller or model from the code, we do so without its prefixes.
 
-```php
-class ArticlesController extends Controller
-{
-    function index(): View
-    {
-        return view();
-    }
-
-    function news(): View
-    {
-        return view();
-    }
-}
-```
 
 # Create from command line
 
