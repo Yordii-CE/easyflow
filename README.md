@@ -43,7 +43,7 @@ app
 
 - Controllers: UpperCamelCase, all must end in 'Controller'.
 
-  ```php
+```php
 class ArticlesController extends Controller
 { 
 }
