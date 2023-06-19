@@ -157,13 +157,13 @@ class ArticlesController extends Controller
 
 # Prefix
 
-### App
+### For app
 you can set a url prefix at application level like this:
 ```php
 DefaultUrl::$pattern = "application/{articles}/{index}/{1}";
 ```
 
-### Controller
+### For controller
 you can set a url prefix at controller level like this:
 ```php
 class ArticlesController extends Controller
