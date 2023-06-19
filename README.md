@@ -85,7 +85,7 @@ You can create the files manually following these naming rules but we have faile
 You can access these variables in any view.
 
 ```php
-echo $PATH_URL;
+echo $PROJECT_PATH;
 echo $BASE_URL;
 echo $CONTROLLER;
 echo $ACTION;
