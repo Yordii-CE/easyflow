@@ -128,9 +128,9 @@ class ArticlesController extends Controller
     }
 }
 ```
-### redirectToAction() | redirectToUrl()
+### redirectToAction()
 
-you can redirect to a controller action or just redirect to a web url like this:
+you can redirect to a controller action like this:
 
 ```php
 class ArticlesController extends Controller
@@ -141,6 +141,10 @@ class ArticlesController extends Controller
     }
 }
 ```
+### redirectToUrl()
+
+you can redirect to a web url like this:
+
 ```php
 class ArticlesController extends Controller
 {
